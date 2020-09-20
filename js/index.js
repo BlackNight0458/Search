@@ -60,5 +60,6 @@ function Handler(e){
     }
     else if(/\S/.test(text.value)){
         Xs.textContent = '';
+        Cz.textContent = '';
     }
 }
